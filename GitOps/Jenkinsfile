@@ -11,7 +11,7 @@ pipeline {
         stage("Workspace cleanup"){
             steps{
                 script{
-                   echo "cleanup skipped"
+                   cleanWs()
                 }
             }
         }
