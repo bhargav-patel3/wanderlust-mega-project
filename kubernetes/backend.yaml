@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: bunny9988/wanderlust-backend:v2.6
+          image: bunny9988/wanderlust-backend:v2.7
           ports:
             - containerPort: 8080
 ---
